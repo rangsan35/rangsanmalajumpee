@@ -11,9 +11,9 @@
       ]
     },
     "building_2": {
-      "name_th": "อาคารศูนย์หัวใจ", "name_en": "Cardiac Center",
+      "name_th": "อาคาร 2 สุจิโต", "name_en": "Cardiac Center",
       "photo_path": "images/b2.jpg", "lat": 16.0580, "lng": 103.6528,
-      "description": "ศูนย์บริการเฉพาะทางด้านหัวใจ",
+      "description": "อาคารเอ๊กซเรย์",
       "departments": [
         {"name_th": "ห้องฉุกเฉินหัวใจ", "floor": "1", "keywords": ["ER", "หัวใจวาย"]},
         {"name_th": "คลินิกหัวใจ", "floor": "2", "keywords": ["เช็คหัวใจ"]},
@@ -21,9 +21,9 @@
       ]
     },
     "building_6": {
-      "name_th": "อาคารผู้ป่วยนอก", "name_en": "OPD Building",
+      "name_th": "อาคาร 9", "name_en": "OPD Building",
       "photo_path": "images/b6.jpg", "lat": 16.0585, "lng": 103.6520,
-      "description": "ตึกตรวจโรคทั่วไป",
+      "description": "ตึก 9ชั้น ",
       "departments": [
         {"name_th": "เวชระเบียน", "floor": "1", "keywords": ["ทำบัตร"]},
         {"name_th": "แผนกทันตกรรม", "floor": "2", "keywords": ["ทำฟัน", "ถอนฟัน"]},

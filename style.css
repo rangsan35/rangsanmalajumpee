@@ -7,10 +7,10 @@ body { font-family: 'Sarabun', sans-serif; background: #eef2f3; margin: 0; paddi
 .result-item { padding: 10px; border-bottom: 1px solid #eee; cursor: pointer; }
 .result-item:hover { background: #f0f7ff; }
 
-.hospital-svg { width: 100%; height: auto; margin: 20px 0; background: #f9f9f9; border-radius: 10px; border: 1px solid #eee; }
+/*.hospital-svg { width: 100%; height: auto; margin: 20px 0; background: #f9f9f9; border-radius: 10px; border: 1px solid #eee; }*/
 .b-shape { fill: #3498db; stroke: #fff; stroke-width: 2; transition: 0.3s; cursor: pointer; }
-.b-group:hover .b-shape { fill: #e74c3c; }
-.b-label { fill: white; font-weight: bold; pointer-events: none; text-anchor: middle; }
+/*.b-group:hover .b-shape { fill: #e74c3c; }*/
+/*.b-label { fill: white; font-weight: bold; pointer-events: none; text-anchor: middle; }*/
 
 .details-section { margin-top: 20px; padding: 15px; background: #f8f9fa; border-radius: 10px; border-left: 5px solid #3498db; }
 .detail-header { display: flex; align-items: center; gap: 15px; margin-bottom: 15px; }
@@ -20,3 +20,53 @@ body { font-family: 'Sarabun', sans-serif; background: #eef2f3; margin: 0; paddi
 .navigate-btn { width: 100%; padding: 15px; background: #27ae60; color: white; border: none; border-radius: 10px; font-size: 16px; font-weight: bold; cursor: pointer; }
 .hidden { display: none; }
 .floor-badge { background: #3498db; color: white; padding: 2px 8px; border-radius: 5px; font-size: 12px; }
+
+/* --- ส่วนที่เพิ่มใหม่สำหรับแผนที่แบบรูปภาพ (SVG Over Image) --- */
+
+#hospital-map-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15); /* เพิ่มเงาให้ดูมีมิติ */
+    border: 2px solid #fff;
+}
+
+.hospital-svg {
+    width: 100%;
+    height: auto;
+    display: block;
+    background-color: #f0f0f0;
+}
+
+/* ปรับแต่งวงกลมตัวเลขให้เหมือนต้นฉบับ */
+.b-circle {
+    fill: #1a73e8; /* สีน้ำเงินมาตรฐาน Google */
+    stroke: #ffffff;
+    stroke-width: 2.5;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+}
+
+/* ปรับแต่งตัวเลขในวงกลม */
+.b-label {
+    fill: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    text-anchor: middle;
+    dominant-baseline: central; /* จัดกึ่งกลางแนวตั้งให้เป๊ะ */
+    pointer-events: none;
+    font-family: 'Sarabun', sans-serif;
+}
+
+/* เอฟเฟกต์เมื่อ Hover (ชี้เมาส์) หรือ Active (แตะบนมือถือ) */
+.b-group:hover .b-circle {
+    fill: #34a853; /* เปลี่ยนเป็นสีเขียวเมื่อชี้ */
+    r: 22; /* ขยายขนาดวงกลมให้ใหญ่ขึ้นเล็กน้อย */
+}
+
+.b-group:active .b-circle {
+    fill: #ea4335; /* สีแดงเมื่อกด */
+    transform: scale(0.95);
+}
