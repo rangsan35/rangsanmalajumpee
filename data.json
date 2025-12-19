@@ -23,7 +23,7 @@
     "building_6": {
       "name_th": "อาคาร 9", "name_en": "OPD Building",
       "photo_path": "images/b6.jpg", "lat": 16.0585, "lng": 103.6520,
-      "description": "ตึก 9ชั้น ",
+      "description": "ตึก 9 ชั้น ",
       "departments": [
         {"name_th": "เวชระเบียน", "floor": "1", "keywords": ["ทำบัตร"]},
         {"name_th": "แผนกทันตกรรม", "floor": "2", "keywords": ["ทำฟัน", "ถอนฟัน"]},
