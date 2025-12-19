@@ -1,7 +1,7 @@
 {
     "building_1": {
       "name_th": "อาคารเฉลิมพระเกียรติ", "name_en": "Chaloem Phra Kiat Building",
-      "photo_path": "images/b1.jpg", "lat": 16.0583, "lng": 103.6525,
+      "photo_path": "images/b1.jpg", "lat": 15.7814361, "lng": 104.1609964,
       "description": "ตึกอำนวยการและห้องตรวจหลัก",
       "departments": [
         {"name_th": "ประชาสัมพันธ์", "floor": "1", "keywords": ["ติดต่อ", "สอบถาม"]},
@@ -11,13 +11,37 @@
       ]
     },
     "building_2": {
-      "name_th": "อาคาร 2 สุจิโต", "name_en": "Cardiac Center",
-      "photo_path": "images/b2.jpg", "lat": 16.0580, "lng": 103.6528,
+      "name_th": "อาคาร 2 สุจิโต", "name_en": "X-ray Center",
+      "photo_path": "images/b2.jpg", "lat": 15.7814523, "lng": 104.1617451,
       "description": "อาคารเอ๊กซเรย์",
       "departments": [
-        {"name_th": "ห้องฉุกเฉินหัวใจ", "floor": "1", "keywords": ["ER", "หัวใจวาย"]},
-        {"name_th": "คลินิกหัวใจ", "floor": "2", "keywords": ["เช็คหัวใจ"]},
-        {"name_th": "หอผู้ป่วยหนักหัวใจ", "floor": "3", "keywords": ["ICU"]}
+        {"name_th": "ห้องเอ็กซเรย์", "floor": "1", "keywords": ["x-ray", "เอ็กซเรย์"]},
+        {"name_th": "ซีที CT", "floor": "1", "keywords": ["CT","ซีที"]},
+        {"name_th": "แพทย์แผนไทย", "floor": "2", "keywords": ["แผนไทย","นวด"]}
+      ]
+    },
+    "building_3": {
+      "name_th": "อาคาร 3", "name_en": "Med Center",
+      "photo_path": "images/b3.jpg", "lat": 15.7815601, "lng": 104.1603503,
+      "description": "อาคารอายุรกรรม",
+      "departments": [
+        {"name_th": "ไตเทียม 3", "floor": "1", "keywords": ["ไตเทียม", "ไต"]},
+        {"name_th": "หน่วยไตเทียม", "floor": "2", "keywords": ["ไตเทียม", "ไต"]},
+        {"name_th": "หอผู้ป่วยอายุรกรรมหญิง", "floor": "3", "keywords": ["อายุรกรรมหญิง"]}
+        {"name_th": "หอผู้ป่วยอายุรกรรมชาย", "floor": "4", "keywords": ["อายุรกรรมชาย"]}
+        {"name_th": "หอผู้ป่วยอายุรกรรมรวม", "floor": "5", "keywords": ["อายุรกรรมรวม"]}
+      ]
+    },
+    "building_4": {
+      "name_th": "อาคาร 4", "name_en": "Med Center",
+      "photo_path": "images/b4.jpg", "lat": 15.7815601, "lng": 104.1603503,
+      "description": "อาคารอายุรกรรม",
+      "departments": [
+        {"name_th": "ไตเทียม 3", "floor": "1", "keywords": ["ไตเทียม", "ไต"]},
+        {"name_th": "หน่วยไตเทียม", "floor": "2", "keywords": ["ไตเทียม", "ไต"]},
+        {"name_th": "หอผู้ป่วยอายุรกรรมหญิง", "floor": "3", "keywords": ["อายุรกรรมหญิง"]}
+        {"name_th": "หอผู้ป่วยอายุรกรรมชาย", "floor": "4", "keywords": ["อายุรกรรมชาย"]}
+        {"name_th": "หอผู้ป่วยอายุรกรรมรวม", "floor": "5", "keywords": ["อายุรกรรมรวม"]}
       ]
     },
     "building_6": {
