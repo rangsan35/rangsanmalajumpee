@@ -1,57 +1,165 @@
 {
+   
     "building_1": {
-      "name_th": "อาคารเฉลิมพระเกียรติ", "name_en": "Chaloem Phra Kiat Building",
-      "photo_path": "images/b1.jpg", "lat": 15.7814361, "lng": 104.1609964,
-      "description": "ตึกอำนวยการและห้องตรวจหลัก",
+      "name_th": "อาคารเฉลิมพระเกียรติจุฬาภรณ์",
+      "name_en": "Chulabhorn Building",
+      "photo_path": "images/b1.jpg",
+      "lat": 15.7814,
+      "lng": 104.1609,
       "departments": [
-        {"name_th": "ประชาสัมพันธ์", "floor": "1", "keywords": ["ติดต่อ", "สอบถาม"]},
-        {"name_th": "การเงิน", "floor": "1", "keywords": ["จ่ายเงิน"]},
-        {"name_th": "ห้องตรวจอายุรกรรม", "floor": "2", "keywords": ["ตรวจโรค"]},
-        {"name_th": "ห้องประชุมใหญ่", "floor": "3", "keywords": ["อบรม"]}
+        {
+          "name_th": "ประชาสัมพันธ์",
+          "name_en": "Internal Medicine Exam Room",
+          "floor": 1,
+          "keywords": ["ติดต่อ", "สอบถาม"]
+        },
+        {
+          "name_th": "คลินิกเฉพาะทางอายุรกรรม (คลินิกโรคไต)",
+          "name_en": "Internal Medicine Specialized Clinic (Kidney)",
+          "floor": 2,
+          "keywords": ["โรคไต", "อายุรกรรม", "คลินิก"]
+        },
+        {
+          "name_th": "คลินิกอายุรกรรมประสาทและลมชัก",
+          "name_en": "Neurology and Epilepsy Clinic",
+          "floor": 3,
+          "keywords": ["ประสาท", "ลมชัก", "อายุรกรรม", "สมอง"]
+        }
       ]
     },
     "building_2": {
-      "name_th": "อาคาร 2 สุจิโต", "name_en": "X-ray Center",
-      "photo_path": "images/b2.jpg", "lat": 15.7814523, "lng": 104.1617451,
-      "description": "อาคารเอ๊กซเรย์",
+      "name_th": "อาคาร 2 สุจิโต",
+      "name_en": "X-ray Center",
+      "photo_path": "images/b2.jpg",
+      "lat": 15.7814,
+      "lng": 104.1609,
       "departments": [
-        {"name_th": "ห้องเอ็กซเรย์", "floor": "1", "keywords": ["x-ray", "เอ็กซเรย์"]},
-        {"name_th": "ซีที CT", "floor": "1", "keywords": ["CT","ซีที"]},
-        {"name_th": "แพทย์แผนไทย", "floor": "2", "keywords": ["แผนไทย","นวด"]}
+        {
+          "name_th": "ห้องเอ็กซเรย์",
+          "name_en": "Internal Medicine Exam Room",
+          "floor": 1,
+          "keywords": ["ติดต่อ", "สอบถาม"]
+        },
+        {
+          "name_th": "แพทย์แผนไทย",
+          "name_en": "Internal Medicine Specialized Clinic (Kidney)",
+          "floor": 2,
+          "keywords": ["โรคไต", "อายุรกรรม", "คลินิก"]
+        },
+        {
+          "name_th": "คลินิกอายุรกรรมประสาทและลมชัก",
+          "name_en": "Neurology and Epilepsy Clinic",
+          "floor": 3,
+          "keywords": ["ประสาท", "ลมชัก", "อายุรกรรม", "สมอง"]
+        }
       ]
     },
     "building_3": {
-      "name_th": "อาคาร 3", "name_en": "Med Center",
-      "photo_path": "images/b3.jpg", "lat": 15.7815601, "lng": 104.1603503,
-      "description": "อาคารอายุรกรรม",
+      "name_th": "อาคาร 3",
+      "name_en": "X-ray Center",
+      "photo_path": "images/b3.jpg",
+      "lat": 15.7814,
+      "lng": 104.1609,
       "departments": [
-        {"name_th": "ไตเทียม 3", "floor": "1", "keywords": ["ไตเทียม", "ไต"]},
-        {"name_th": "หน่วยไตเทียม", "floor": "2", "keywords": ["ไตเทียม", "ไต"]},
-        {"name_th": "หอผู้ป่วยอายุรกรรมหญิง", "floor": "3", "keywords": ["อายุรกรรมหญิง"]}
-        {"name_th": "หอผู้ป่วยอายุรกรรมชาย", "floor": "4", "keywords": ["อายุรกรรมชาย"]}
-        {"name_th": "หอผู้ป่วยอายุรกรรมรวม", "floor": "5", "keywords": ["อายุรกรรมรวม"]}
+        {
+          "name_th": "ห้องเอ็กซเรย์",
+          "name_en": "Internal Medicine Exam Room",
+          "floor": 1,
+          "keywords": ["ติดต่อ", "สอบถาม"]
+        },
+        {
+          "name_th": "แพทย์แผนไทย",
+          "name_en": "Internal Medicine Specialized Clinic (Kidney)",
+          "floor": 2,
+          "keywords": ["โรคไต", "อายุรกรรม", "คลินิก"]
+        },
+        {
+          "name_th": "คลินิกอายุรกรรมประสาทและลมชัก",
+          "name_en": "Neurology and Epilepsy Clinic",
+          "floor": 3,
+          "keywords": ["ประสาท", "ลมชัก", "อายุรกรรม", "สมอง"]
+        }
       ]
     },
-    "building_4": {
-      "name_th": "อาคาร 4", "name_en": "Med Center",
-      "photo_path": "images/b4.jpg", "lat": 15.7815601, "lng": 104.1603503,
-      "description": "อาคารอายุรกรรม",
+   "building_4": {
+      "name_th": "อาคาร 4",
+      "name_en": "X-ray Center",
+      "photo_path": "images/b4.jpg",
+      "lat": 15.7814,
+      "lng": 104.1609,
       "departments": [
-        {"name_th": "ไตเทียม 3", "floor": "1", "keywords": ["ไตเทียม", "ไต"]},
-        {"name_th": "หน่วยไตเทียม", "floor": "2", "keywords": ["ไตเทียม", "ไต"]},
-        {"name_th": "หอผู้ป่วยอายุรกรรมหญิง", "floor": "3", "keywords": ["อายุรกรรมหญิง"]}
-        {"name_th": "หอผู้ป่วยอายุรกรรมชาย", "floor": "4", "keywords": ["อายุรกรรมชาย"]}
-        {"name_th": "หอผู้ป่วยอายุรกรรมรวม", "floor": "5", "keywords": ["อายุรกรรมรวม"]}
+        {
+          "name_th": "ห้องเอ็กซเรย์",
+          "name_en": "Internal Medicine Exam Room",
+          "floor": 1,
+          "keywords": ["ติดต่อ", "สอบถาม"]
+        },
+        {
+          "name_th": "แพทย์แผนไทย",
+          "name_en": "Internal Medicine Specialized Clinic (Kidney)",
+          "floor": 2,
+          "keywords": ["โรคไต", "อายุรกรรม", "คลินิก"]
+        },
+        {
+          "name_th": "คลินิกอายุรกรรมประสาทและลมชัก",
+          "name_en": "Neurology and Epilepsy Clinic",
+          "floor": 3,
+          "keywords": ["ประสาท", "ลมชัก", "อายุรกรรม", "สมอง"]
+        }
       ]
     },
-    "building_6": {
-      "name_th": "อาคาร 9", "name_en": "OPD Building",
-      "photo_path": "images/b9.jpg", "lat": 16.0585, "lng": 103.6520,
-      "description": "ตึก 9 ชั้น ",
+    "building_5": {
+      "name_th": "อาคาร 5",
+      "name_en": "X-ray Center",
+      "photo_path": "images/b5.jpg",
+      "lat": 15.7814,
+      "lng": 104.1609,
       "departments": [
-        {"name_th": "เวชระเบียน", "floor": "1", "keywords": ["ทำบัตร"]},
-        {"name_th": "แผนกทันตกรรม", "floor": "2", "keywords": ["ทำฟัน", "ถอนฟัน"]},
-        {"name_th": "แผนกจักษุ", "floor": "3", "keywords": ["ตรวจตา", "แว่น"]}
+        {
+          "name_th": "ห้องเอ็กซเรย์",
+          "name_en": "Internal Medicine Exam Room",
+          "floor": 1,
+          "keywords": ["ติดต่อ", "สอบถาม"]
+        },
+        {
+          "name_th": "แพทย์แผนไทย",
+          "name_en": "Internal Medicine Specialized Clinic (Kidney)",
+          "floor": 2,
+          "keywords": ["โรคไต", "อายุรกรรม", "คลินิก"]
+        },
+        {
+          "name_th": "คลินิกอายุรกรรมประสาทและลมชัก",
+          "name_en": "Neurology and Epilepsy Clinic",
+          "floor": 3,
+          "keywords": ["ประสาท", "ลมชัก", "อายุรกรรม", "สมอง"]
+        }
+      ]
+    },
+   "building_6": {
+      "name_th": "อาคาร 9",
+      "name_en": "X-ray Center",
+      "photo_path": "images/b6.jpg",
+      "lat": 15.7814,
+      "lng": 104.1609,
+      "departments": [
+        {
+          "name_th": "ห้องเอ็กซเรย์",
+          "name_en": "Internal Medicine Exam Room",
+          "floor": 1,
+          "keywords": ["ติดต่อ", "สอบถาม"]
+        },
+        {
+          "name_th": "แพทย์แผนไทย",
+          "name_en": "Internal Medicine Specialized Clinic (Kidney)",
+          "floor": 2,
+          "keywords": ["โรคไต", "อายุรกรรม", "คลินิก"]
+        },
+        {
+          "name_th": "คลินิกอายุรกรรมประสาทและลมชัก",
+          "name_en": "Neurology and Epilepsy Clinic",
+          "floor": 3,
+          "keywords": ["ประสาท", "ลมชัก", "อายุรกรรม", "สมอง"]
+        }
       ]
     },
     "building_10": {
