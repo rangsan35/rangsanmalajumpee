@@ -1,53 +1,59 @@
 {
-    "building_1": {
-      "name_th": "อาคารเฉลิมพระเกียรติ", "name_en": "Chaloem Phra Kiat Building",
-      "photo_path": "images/b1.jpg", "lat": 16.0583, "lng": 103.6525,
-      "description": "ตึกอำนวยการและห้องตรวจหลัก",
-      "departments": [
-        {"name_th": "ประชาสัมพันธ์", "floor": "1", "keywords": ["ติดต่อ", "สอบถาม"]},
-        {"name_th": "การเงิน", "floor": "1", "keywords": ["จ่ายเงิน"]},
-        {"name_th": "ห้องตรวจอายุรกรรม", "floor": "2", "keywords": ["ตรวจโรค"]},
-        {"name_th": "ห้องประชุมใหญ่", "floor": "3", "keywords": ["อบรม"]}
-      ]
-    },
-    "building_2": {
-      "name_th": "อาคารศูนย์หัวใจ", "name_en": "Cardiac Center",
-      "photo_path": "images/b2.jpg", "lat": 16.0580, "lng": 103.6528,
-      "description": "ศูนย์บริการเฉพาะทางด้านหัวใจ",
-      "departments": [
-        {"name_th": "ห้องฉุกเฉินหัวใจ", "floor": "1", "keywords": ["ER", "หัวใจวาย"]},
-        {"name_th": "คลินิกหัวใจ", "floor": "2", "keywords": ["เช็คหัวใจ"]},
-        {"name_th": "หอผู้ป่วยหนักหัวใจ", "floor": "3", "keywords": ["ICU"]}
-      ]
-    },
-    "building_6": {
-      "name_th": "อาคารผู้ป่วยนอก", "name_en": "OPD Building",
-      "photo_path": "images/b6.jpg", "lat": 16.0585, "lng": 103.6520,
-      "description": "ตึกตรวจโรคทั่วไป",
-      "departments": [
-        {"name_th": "เวชระเบียน", "floor": "1", "keywords": ["ทำบัตร"]},
-        {"name_th": "แผนกทันตกรรม", "floor": "2", "keywords": ["ทำฟัน", "ถอนฟัน"]},
-        {"name_th": "แผนกจักษุ", "floor": "3", "keywords": ["ตรวจตา", "แว่น"]}
-      ]
-    },
-    "building_10": {
-      "name_th": "ตึกฉัตรชบา", "name_en": "Chat Chaba Building",
-      "photo_path": "images/b10.jpg", "lat": 16.0588, "lng": 103.6530,
-      "description": "ตึกผู้ป่วยใน",
-      "departments": [
-        {"name_th": "ธนาคารเลือด", "floor": "1", "keywords": ["บริจาคเลือด"]},
-        {"name_th": "หอผู้ป่วยพิเศษ 1", "floor": "2", "keywords": ["ห้องพิเศษ"]},
-        {"name_th": "หอผู้ป่วยพิเศษ 2", "floor": "3", "keywords": ["ห้องพิเศษ"]}
-      ]
-    },
-    "building_17": {
-      "name_th": "อาคารโภชนาการ", "name_en": "Nutrition Building",
-      "photo_path": "images/b17.jpg", "lat": 16.0590, "lng": 103.6535,
-      "description": "โรงอาหารและโภชนาการ",
-      "departments": [
-        {"name_th": "โรงอาหาร", "floor": "1", "keywords": ["กินข้าว", "อาหาร"]},
-        {"name_th": "ฝ่ายโภชนาการ", "floor": "2", "keywords": ["จัดอาหาร"]},
-        {"name_th": "ห้องเก็บพัสดุ", "floor": "3", "keywords": ["คลัง"]}
-      ]
-    }
+  "building_1": {
+    "name_th": "อาคารเฉลิมพระเกียรติจุฬาภรณ์",
+    "name_en": "Chulabhorn Building",
+    "photo_path": "images/b1.jpg",
+    "lat": 15.7814,
+    "lng": 104.1609,
+    "description": "อาคารผู้ป่วยนอกและศูนย์เชี่ยวชาญ",
+    "departments": [
+      { "name_th": "ประชาสัมพันธ์", "name_en": "Information", "floor": 1, "keywords": ["ติดต่อ", "สอบถาม"] },
+      { "name_th": "คลินิกเฉพาะทางอายุรกรรม", "name_en": "Medicine Clinic", "floor": 2, "keywords": ["โรคไต", "อายุรกรรม"] }
+    ]
+  },
+  "building_2": {
+    "name_th": "อาคาร 2 สุจิโต",
+    "name_en": "Sujito Building",
+    "photo_path": "images/b2.jpg",
+    "lat": 15.7815,
+    "lng": 104.1610,
+    "description": "ศูนย์เอ็กซเรย์และแพทย์แผนไทย",
+    "departments": [
+      { "name_th": "ห้องเอ็กซเรย์", "floor": 1, "keywords": ["x-ray", "ฉายแสง"] },
+      { "name_th": "แพทย์แผนไทย", "floor": 2, "keywords": ["นวด", "สมุนไพร"] }
+    ]
+  },
+  "building_3": {
+    "name_th": "อาคาร 3",
+    "name_en": "Building 3",
+    "photo_path": "images/b3.jpg",
+    "lat": 15.7816,
+    "lng": 104.1611,
+    "description": "หน่วยงานสนับสนุน",
+    "departments": [
+      { "name_th": "ห้องแล็บ", "floor": 1, "keywords": ["เจาะเลือด", "ตรวจเลือด"] }
+    ]
+  },
+  "building_4": {
+    "name_th": "อาคาร 4",
+    "name_en": "Building 4",
+    "photo_path": "images/b4.jpg",
+    "lat": 15.7817,
+    "lng": 104.1612,
+    "description": "หอผู้ป่วยใน",
+    "departments": [
+      { "name_th": "หอผู้ป่วยสามัญ", "floor": 1, "keywords": ["พักฟื้น"] }
+    ]
+  },
+  "building_6": {
+    "name_th": "อาคาร 9",
+    "name_en": "Building 9",
+    "photo_path": "images/b6.jpg",
+    "lat": 15.7818,
+    "lng": 104.1613,
+    "description": "อาคารบริการนิวเคลียร์",
+    "departments": [
+      { "name_th": "แผนกรังสี", "floor": 1, "keywords": ["รังสี"] }
+    ]
   }
+}
