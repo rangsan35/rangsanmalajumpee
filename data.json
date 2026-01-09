@@ -45,6 +45,17 @@
       { "name_th": "หอผู้ป่วยสามัญ", "floor": 1, "keywords": ["พักฟื้น"] }
     ]
   },
+  "building_5": {
+    "name_th": "อาคาร 5",
+    "name_en": "Building 5",
+    "photo_path": "images/b5.jpg",
+    "lat": 15.7820,
+    "lng": 104.1618,
+    "description": "เจาะเลือด,สุขใจ",
+    "departments": [
+      { "name_th": "ห้องเจาะเลือด", "floor": 1, "keywords": ["เลือด","เจาะเลือด","สุขใจ"] }
+    ]
+  },
   "building_6": {
     "name_th": "อาคาร 9",
     "name_en": "Building 9",
@@ -54,6 +65,32 @@
     "description": "อาคารบริการนิวเคลียร์",
     "departments": [
       { "name_th": "แผนกรังสี", "floor": 1, "keywords": ["รังสี"] }
+    ]
+  },
+  "building_8": {
+    "name_th": "อาคาร 8",
+    "name_en": "Building 8",
+    "photo_path": "images/b8.jpg",
+    "lat": 15.7823,
+    "lng": 104.1620,
+    "description": "อาคารผ่าตัด",
+    "departments": [
+      { "name_th": "ห้องคลอด", "floor": 1, "keywords": ["ห้องคลอด"] },
+      { "name_th": "หอผู้ป่วยสุขใจ 2", "floor": 2, "keywords": ["สุขใจ2","สุขใจ 2"] },
+      { "name_th": "ห้องผ่าตัด", "floor": 3, "keywords": ["ผ่าตัด","ห้องผ่าตัด"] }
+    ]
+  },
+  "building_10": {
+    "name_th": "อาคาร 10",
+    "name_en": "Building 10",
+    "photo_path": "images/b8.jpg",
+    "lat": 15.7826,
+    "lng": 104.1625,
+    "description": "อาคาร 10",
+    "departments": [
+      { "name_th": "ICU เด็ก", "floor": 1, "keywords": ["ICU เด็ก","เด็กแรกเกิดป่วย"] },
+      { "name_th": "หอผู้ป่วยสูติกรรม", "floor": 2, "keywords": ["สูติกรรม","หลังคลอด"] },
+      { "name_th": "หอผู้ป่วยกระดูก", "floor": 4, "keywords": ["กระดูก","ออโธ"] }
     ]
   }
 }
