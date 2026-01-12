@@ -1,11 +1,11 @@
 {
   "building_1": {
-    "name_th": "อาคารเฉลิมพระเกียรติจุฬาภรณ์",
+    "name_th": "อาคารเฉลิมพระเกียรติ 6 รอบ",
     "name_en": "Chulabhorn Building",
     "photo_path": "images/b1.jpg",
     "lat": 15.7814,
     "lng": 104.1609,
-    "description": "อาคารผู้ป่วยนอกและศูนย์เชี่ยวชาญ",
+    "description": "อาคารผู้ป่วยนอก",
     "departments": [
       { "name_th": "ประชาสัมพันธ์", "name_en": "Information", "floor": 1, "keywords": ["ติดต่อ", "สอบถาม"] },
       { "name_th": "คลินิกเฉพาะทางอายุรกรรม", "name_en": "Medicine Clinic", "floor": 2, "keywords": ["โรคไต", "อายุรกรรม"] }
@@ -16,7 +16,7 @@
     "name_en": "Sujito Building",
     "photo_path": "images/b2.jpg",
     "lat": 15.7815,
-    "lng": 104.1610,
+    "lng": 104.1619,
     "description": "ศูนย์เอ็กซเรย์และแพทย์แผนไทย",
     "departments": [
       { "name_th": "ห้องเอ็กซเรย์", "floor": 1, "keywords": ["x-ray", "ฉายแสง"] },
@@ -38,7 +38,7 @@
     "name_th": "อาคาร 4",
     "name_en": "Building 4",
     "photo_path": "images/b4.jpg",
-    "lat": 15.7817,
+    "lat": 15.7813,
     "lng": 104.1612,
     "description": "หอผู้ป่วยใน",
     "departments": [
@@ -49,30 +49,44 @@
     "name_th": "อาคาร 5",
     "name_en": "Building 5",
     "photo_path": "images/b5.jpg",
-    "lat": 15.7820,
-    "lng": 104.1618,
+    "lat": 15.7818,
+    "lng": 104.1615,
     "description": "เจาะเลือด,สุขใจ",
     "departments": [
       { "name_th": "ห้องเจาะเลือด", "floor": 1, "keywords": ["เลือด","เจาะเลือด","สุขใจ"] }
     ]
   },
+
   "building_6": {
-    "name_th": "อาคาร 9",
-    "name_en": "Building 9",
-    "photo_path": "images/b6.jpg",
-    "lat": 15.7818,
-    "lng": 104.1613,
-    "description": "อาคารบริการนิวเคลียร์",
+    "name_th": "อาคาร 6",
+    "name_en": "Building 6",
+    "photo_path": "images/b5.jpg",
+    "lat": 15.7811,
+    "lng": 104.1610,
+    "description": "ฮักแฮง, ARV",
     "departments": [
-      { "name_th": "แผนกรังสี", "floor": 1, "keywords": ["รังสี"] }
+      { "name_th": "ฮักแฮง,ARV", "floor": 1, "keywords": ["ฮักแฮง","ARV"] }
+    ]
+  },
+
+  "building_7": {
+    "name_th": "อาคาร 7",
+    "name_en": "Building 7",
+    "photo_path": "images/b6.jpg",
+    "lat": 15.7821,
+    "lng": 104.1615,
+    "description": "อาคารกายภาพ",
+    "departments": [
+      { "name_th": "กายภาพบำบัด", "floor": 1, "keywords": ["กายภาพบำบัด"] },
+      { "name_th": "อาชีวอนามัย", "floor": 2, "keywords": ["อาชีวอนามัย"] }
     ]
   },
   "building_8": {
     "name_th": "อาคาร 8",
     "name_en": "Building 8",
     "photo_path": "images/b8.jpg",
-    "lat": 15.7823,
-    "lng": 104.1620,
+    "lat": 15.7820,
+    "lng": 104.1616,
     "description": "อาคารผ่าตัด",
     "departments": [
       { "name_th": "ห้องคลอด", "floor": 1, "keywords": ["ห้องคลอด"] },
@@ -80,17 +94,40 @@
       { "name_th": "ห้องผ่าตัด", "floor": 3, "keywords": ["ผ่าตัด","ห้องผ่าตัด"] }
     ]
   },
+  "building_9": {
+    "name_th": "อาคาร 9",
+    "name_en": "Building 9",
+    "photo_path": "images/b6.jpg",
+    "lat": 15.7822,
+    "lng": 104.1620,
+    "description": "อาคารบริการนิวเคลียร์",
+    "departments": [
+      { "name_th": "แผนกรังสี", "floor": 1, "keywords": ["รังสี"] }
+    ]
+  },
   "building_10": {
     "name_th": "อาคาร 10",
     "name_en": "Building 10",
     "photo_path": "images/b8.jpg",
-    "lat": 15.7826,
-    "lng": 104.1625,
+    "lat": 15.7822,
+    "lng": 104.1615,
     "description": "อาคาร 10",
     "departments": [
       { "name_th": "ICU เด็ก", "floor": 1, "keywords": ["ICU เด็ก","เด็กแรกเกิดป่วย"] },
       { "name_th": "หอผู้ป่วยสูติกรรม", "floor": 2, "keywords": ["สูติกรรม","หลังคลอด"] },
       { "name_th": "หอผู้ป่วยกระดูก", "floor": 4, "keywords": ["กระดูก","ออโธ"] }
+    ]
+  },
+  "building_11": {
+    "name_th": "อาคาร 11",
+    "name_en": "Building 11",
+    "photo_path": "images/b8.jpg",
+    "lat": 15.7812,
+    "lng": 104.1613,
+    "description": "คลินิก ARI",
+    "departments": [
+      { "name_th": "คลินิก ARI", "floor": 1, "keywords": ["ARI","ทางเดินหายใจ"] }
+      
     ]
   }
 }
