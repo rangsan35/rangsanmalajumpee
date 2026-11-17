@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>รพ.ยโสธร นำทาง</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=20261117">
 </head>
 <body>
     <div class="container">
@@ -28,7 +28,7 @@
         
                     <g class="b-group" onclick="selectBuilding('building_2')">
                         <circle cx="310" cy="103" r="18" class="b-circle" />
-                        <text x="310" y="103" class="b-label">2</text>
+                        <text x="310" y="103" class="b-label">6</text>
                     </g>
                     
                     <g class="b-group" onclick="selectBuilding('building_3')">
@@ -38,7 +38,7 @@
 
                     <g class="b-group" onclick="selectBuilding('building_4')">
                         <circle cx="152" cy="163" r="18" class="b-circle" />
-                        <text x="152" y="163" class="b-label">4</text>
+                        <text x="152" y="163" class="b-label">2</text>
                     </g>
 
                     <g class="b-group" onclick="selectBuilding('building_5')">
@@ -48,10 +48,10 @@
 
                     <g class="b-group" onclick="selectBuilding('building_6')">
                         <circle cx="108" cy="194" r="18" class="b-circle" />
-                        <text x="108" y="194" class="b-label">6</text>
+                        <text x="108" y="194" class="b-label">4</text>
                     </g>
 
-                    
+
                     <g class="b-group" onclick="selectBuilding('building_7')">
                         <circle cx="165" cy="99" r="18" class="b-circle" />
                         <text x="165" y="99" class="b-label">7</text>
@@ -97,9 +97,13 @@
                 <img id="building-photo" src="" alt="อาคาร">
             </div>
             <div id="building-description" class="description-text"></div>
+            <div id="department-section" class="hidden">
+                <div class="department-title">แผนกในอาคารนี้ (แตะเพื่อดูรูป)</div>
+                <div id="department-list"></div>
+            </div>
             <button class="navigate-btn" onclick="startNavigation()">🚀 นำทางด้วย Google Maps</button>
         </div>
     </div>
-    <script src="script.js"></script>
+    <script src="script.js?v=20261117"></script>
 </body>
 </html>

@@ -21,6 +21,27 @@ body { font-family: 'Sarabun', sans-serif; background: #eef2f3; margin: 0; paddi
 .hidden { display: none; }
 .floor-badge { background: #3498db; color: white; padding: 2px 8px; border-radius: 5px; font-size: 12px; }
 
+/* --- รายชื่อแผนกและรูปของแต่ละแผนก --- */
+.department-entry { margin-bottom: 6px; }
+.department-item[aria-expanded="true"] { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
+.department-panel { padding: 10px; background: #fff; border: 2px solid #3498db; border-top: none; border-radius: 0 0 8px 8px; }
+.department-floor { margin: 0 0 8px 0; font-weight: bold; color: #2c3e50; }
+.department-no-photo { margin: 0; padding: 20px 10px; text-align: center; color: #5f6b73; background: #f1f4f6; border-radius: 8px; }
+.dept-gallery { position: relative; height: 220px; border-radius: 8px; overflow: hidden; background: #263238; touch-action: pan-y; }
+.dept-gallery img { width: 100%; height: 100%; object-fit: contain; display: block; }
+.gallery-nav { position: absolute; top: 50%; transform: translateY(-50%); width: 44px; height: 44px; border: none; border-radius: 50%; background: rgba(0,0,0,0.55); color: #fff; font-size: 28px; line-height: 1; cursor: pointer; }
+.gallery-prev { left: 8px; }
+.gallery-next { right: 8px; }
+.gallery-counter { position: absolute; right: 8px; bottom: 8px; padding: 2px 10px; border-radius: 12px; background: rgba(0,0,0,0.65); color: #fff; font-size: 13px; }
+
+#department-section { margin: 15px 0; }
+.department-title { font-weight: bold; color: #2c3e50; margin-bottom: 8px; }
+.department-item { display: flex; justify-content: space-between; align-items: center; gap: 10px; width: 100%; min-height: 44px; padding: 10px 12px; margin: 0; background: #fff; border: 1px solid #d6dee3; border-radius: 8px; font: inherit; text-align: left; cursor: pointer; }
+.department-item:hover { background: #f0f7ff; }
+.department-item.active { border: 2px solid #3498db; background: #eaf4fc; }
+.department-name { flex: 1; }
+.department-item .floor-badge { white-space: nowrap; }
+
 /* --- ส่วนที่เพิ่มใหม่สำหรับแผนที่แบบรูปภาพ (SVG Over Image) --- */
 
 #hospital-map-container {

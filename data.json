@@ -1,133 +1,913 @@
 {
-  "building_1": {
-    "name_th": "อาคารเฉลิมพระเกียรติ 6 รอบ",
-    "name_en": "Chulabhorn Building",
-    "photo_path": "images/b1.jpg",
-    "lat": 15.7814,
-    "lng": 104.1609,
-    "description": "อาคารผู้ป่วยนอก",
-    "departments": [
-      { "name_th": "ประชาสัมพันธ์", "name_en": "Information", "floor": 1, "keywords": ["ติดต่อ", "สอบถาม"] },
-      { "name_th": "คลินิกเฉพาะทางอายุรกรรม", "name_en": "Medicine Clinic", "floor": 2, "keywords": ["โรคไต", "อายุรกรรม"] }
-    ]
-  },
-  "building_2": {
-    "name_th": "อาคาร 2 สุจิโต",
-    "name_en": "Sujito Building",
-    "photo_path": "images/b2.jpg",
-    "lat": 15.7815,
-    "lng": 104.1619,
-    "description": "ศูนย์เอ็กซเรย์และแพทย์แผนไทย",
-    "departments": [
-      { "name_th": "ห้องเอ็กซเรย์", "floor": 1, "keywords": ["x-ray", "ฉายแสง"] },
-      { "name_th": "แพทย์แผนไทย", "floor": 2, "keywords": ["นวด", "สมุนไพร"] }
-    ]
-  },
-  "building_3": {
-    "name_th": "อาคาร 3",
-    "name_en": "Building 3",
-    "photo_path": "images/b3.jpg",
-    "lat": 15.7816,
-    "lng": 104.1611,
-    "description": "หน่วยงานสนับสนุน",
-    "departments": [
-      { "name_th": "ห้องแล็บ", "floor": 1, "keywords": ["เจาะเลือด", "ตรวจเลือด"] }
-    ]
-  },
-  "building_4": {
-    "name_th": "อาคาร 4",
-    "name_en": "Building 4",
-    "photo_path": "images/b4.jpg",
-    "lat": 15.7813,
-    "lng": 104.1612,
-    "description": "หอผู้ป่วยใน",
-    "departments": [
-      { "name_th": "หอผู้ป่วยสามัญ", "floor": 1, "keywords": ["พักฟื้น"] }
-    ]
-  },
-  "building_5": {
-    "name_th": "อาคาร 5",
-    "name_en": "Building 5",
-    "photo_path": "images/b5.jpg",
-    "lat": 15.7818,
-    "lng": 104.1615,
-    "description": "เจาะเลือด,สุขใจ",
-    "departments": [
-      { "name_th": "ห้องเจาะเลือด", "floor": 1, "keywords": ["เลือด","เจาะเลือด","สุขใจ"] }
-    ]
-  },
-
-  "building_6": {
-    "name_th": "อาคาร 6",
-    "name_en": "Building 6",
-    "photo_path": "images/b5.jpg",
-    "lat": 15.7811,
-    "lng": 104.1610,
-    "description": "ฮักแฮง, ARV",
-    "departments": [
-      { "name_th": "ฮักแฮง,ARV", "floor": 1, "keywords": ["ฮักแฮง","ARV"] }
-    ]
-  },
-
-  "building_7": {
-    "name_th": "อาคาร 7",
-    "name_en": "Building 7",
-    "photo_path": "images/b6.jpg",
-    "lat": 15.7821,
-    "lng": 104.1615,
-    "description": "อาคารกายภาพ",
-    "departments": [
-      { "name_th": "กายภาพบำบัด", "floor": 1, "keywords": ["กายภาพบำบัด"] },
-      { "name_th": "อาชีวอนามัย", "floor": 2, "keywords": ["อาชีวอนามัย"] }
-    ]
-  },
-  "building_8": {
-    "name_th": "อาคาร 8",
-    "name_en": "Building 8",
-    "photo_path": "images/b8.jpg",
-    "lat": 15.7820,
-    "lng": 104.1616,
-    "description": "อาคารผ่าตัด",
-    "departments": [
-      { "name_th": "ห้องคลอด", "floor": 1, "keywords": ["ห้องคลอด"] },
-      { "name_th": "หอผู้ป่วยสุขใจ 2", "floor": 2, "keywords": ["สุขใจ2","สุขใจ 2"] },
-      { "name_th": "ห้องผ่าตัด", "floor": 3, "keywords": ["ผ่าตัด","ห้องผ่าตัด"] }
-    ]
-  },
-  "building_9": {
-    "name_th": "อาคาร 9",
-    "name_en": "Building 9",
-    "photo_path": "images/b6.jpg",
-    "lat": 15.7822,
-    "lng": 104.1620,
-    "description": "อาคารบริการนิวเคลียร์",
-    "departments": [
-      { "name_th": "แผนกรังสี", "floor": 1, "keywords": ["รังสี"] }
-    ]
-  },
-  "building_10": {
-    "name_th": "อาคาร 10",
-    "name_en": "Building 10",
-    "photo_path": "images/b8.jpg",
-    "lat": 15.7822,
-    "lng": 104.1615,
-    "description": "อาคาร 10",
-    "departments": [
-      { "name_th": "ICU เด็ก", "floor": 1, "keywords": ["ICU เด็ก","เด็กแรกเกิดป่วย"] },
-      { "name_th": "หอผู้ป่วยสูติกรรม", "floor": 2, "keywords": ["สูติกรรม","หลังคลอด"] },
-      { "name_th": "หอผู้ป่วยกระดูก", "floor": 4, "keywords": ["กระดูก","ออโธ"] }
-    ]
-  },
-  "building_11": {
-    "name_th": "อาคาร 11",
-    "name_en": "Building 11",
-    "photo_path": "images/b8.jpg",
-    "lat": 15.7812,
-    "lng": 104.1613,
-    "description": "คลินิก ARI",
-    "departments": [
-      { "name_th": "คลินิก ARI", "floor": 1, "keywords": ["ARI","ทางเดินหายใจ"] }
-      
-    ]
-  }
+    "building_1": {
+        "name_th": "อาคารเฉลิมพระเกียรติ 6 รอบ",
+        "name_en": "Chulabhorn Building",
+        "photo_path": "images/uploads/2c1a2187547f4c852bc8ed56a44f24a7.jpg",
+        "lat": 15.7814,
+        "lng": 104.1609,
+        "description": "อาคารผู้ป่วยนอก",
+        "departments": [
+            {
+                "name_th": "ประชาสัมพันธ์",
+                "name_en": "Information",
+                "floor": 1,
+                "keywords": [
+                    "ติดต่อ",
+                    "สอบถาม"
+                ],
+                "id": "447956fd7e69",
+                "photos": [
+                    "images/uploads/891145da4a7ac66c7b28b4e4b54e7698.jpg",
+                    "images/uploads/e34b9497f732aea8ed28df78eef0c839.jpg"
+                ]
+            },
+            {
+                "name_th": "เวชระเบียน(ห้องบัตร)",
+                "name_en": "",
+                "floor": 1,
+                "keywords": [
+                    "ห้องบัตร",
+                    "เวชระเบียน"
+                ],
+                "id": "1868c94076fb",
+                "photos": [
+                    "images/uploads/0c39f5fe65afa53b6b11bdf254181713.jpg"
+                ]
+            },
+            {
+                "id": "47fe69101890",
+                "name_th": "ห้องตรวจโรค 1-6",
+                "name_en": "",
+                "floor": 1,
+                "keywords": [
+                    "ห้องตรวจกระดูกและข้อ",
+                    "ห้องตรวจOPD",
+                    "ตรวจโรคทั่วไป",
+                    "ห้องตรวจอายุรกรรม",
+                    "ห้องตรวจอายุรกรรมระบบประสาท102",
+                    "ห้องตรวจศัลยกรรมระบบประสาท102"
+                ],
+                "photos": [
+                    "images/uploads/83bd5070fd79f496dd1690bc0b6944ea.jpg",
+                    "images/uploads/e531903d5dd719410af0100c3e5a6031.jpg",
+                    "images/uploads/0c382132883be43bcc895b036bdb325e.jpg",
+                    "images/uploads/6cc3a9b867a40a17fea489dc24d3a362.jpg",
+                    "images/uploads/4a02cb2b0cebbfae7042da4bc3eeae48.jpg"
+                ]
+            },
+            {
+                "id": "cd1d3a5862b5",
+                "name_th": "ห้องการเงิน",
+                "name_en": "",
+                "floor": 1,
+                "keywords": [
+                    "จ่ายเงิน",
+                    "การเงิน"
+                ],
+                "photos": [
+                    "images/uploads/d8e2e0d60051894deaeb1a5c18cf6c86.jpg"
+                ]
+            },
+            {
+                "id": "2e1d509b96e8",
+                "name_th": "ห้องจ่ายยาผู้ป่วยนอก",
+                "name_en": "",
+                "floor": 1,
+                "keywords": [
+                    "ห้องยา",
+                    "จ่ายยา",
+                    "ห้องยาOPD"
+                ],
+                "photos": [
+                    "images/uploads/2bbcc907b9797f72831f94cc4d2a76e9.jpg"
+                ]
+            },
+            {
+                "id": "b1d5822e1094",
+                "name_th": "อุบัติเหตุฉุกเฉิน",
+                "name_en": "ER",
+                "floor": 1,
+                "keywords": [
+                    "อุบัติเหตุฉุกเฉิน",
+                    "ห้อง ER"
+                ],
+                "photos": [
+                    "images/uploads/c2f4d67d1654e824b1901bf58479360f.jpg"
+                ]
+            },
+            {
+                "id": "9a28087a6922",
+                "name_th": "คลินิกอายุรกรรมชั้น 2",
+                "name_en": "",
+                "floor": 2,
+                "keywords": [
+                    "คลินิกเด็ก",
+                    "คลินิกศัลย์",
+                    "คลินิกตา",
+                    "คลินิกหู",
+                    "คลินิกทางเดินปัสสวะ",
+                    "คลินิกสูตินารี"
+                ],
+                "photos": [
+                    "images/uploads/31b5a067deee0d05d87fbc442100b7cf.jpg"
+                ]
+            },
+            {
+                "id": "0c4696afd12d",
+                "name_th": "คลินิกศัลยกรรม",
+                "name_en": "",
+                "floor": 2,
+                "keywords": [
+                    "ศัลยกรรมชั้น 2",
+                    "ระบบทางเดินปัสสาวะ"
+                ],
+                "photos": [
+                    "images/uploads/46b985aa52187851ac8d8662595844a1.jpg"
+                ]
+            },
+            {
+                "id": "e3bc91fe2b4d",
+                "name_th": "คลินิกกุมารเวชกรรม",
+                "name_en": "",
+                "floor": 2,
+                "keywords": [
+                    "คลินิกเด็ก",
+                    "กุมารเวชกรรม"
+                ],
+                "photos": [
+                    "images/uploads/2e915989cfb93bbe6e111031bbfc6df5.jpg"
+                ]
+            },
+            {
+                "id": "0377be161401",
+                "name_th": "คลินิก หู คอ จมูก",
+                "name_en": "",
+                "floor": 2,
+                "keywords": [
+                    "หู คอ จมูก"
+                ],
+                "photos": [
+                    "images/uploads/842bb52269287a601dd58b173f50bbee.jpg"
+                ]
+            },
+            {
+                "id": "2bfb74e623f2",
+                "name_th": "คลินิกจิตเวช",
+                "name_en": "",
+                "floor": 2,
+                "keywords": [
+                    "จิตเวช",
+                    "ยาเสพติด"
+                ],
+                "photos": [
+                    "images/uploads/67208e8e963fe1aec1455d0c471874dd.jpg",
+                    "images/uploads/d5dc0af0cee6ed113e1648a81540cf10.jpg"
+                ]
+            },
+            {
+                "id": "07ac3c4d03ae",
+                "name_th": "คลินิกสูตินารี",
+                "name_en": "",
+                "floor": 2,
+                "keywords": [
+                    "สูตินารี",
+                    "ส่งเสริมการมีบุตร"
+                ],
+                "photos": [
+                    "images/uploads/314e597971d47a121304d142b7829ad9.jpg"
+                ]
+            },
+            {
+                "id": "32567cb82620",
+                "name_th": "คลินิกทันตกรรม",
+                "name_en": "",
+                "floor": 3,
+                "keywords": [
+                    "ห้องฟัน",
+                    "คลินิกทันตกรรม",
+                    "ตรวจฟัน"
+                ],
+                "photos": [
+                    "images/uploads/bcd478c34163b82cad9988dcc9dda932.jpg"
+                ]
+            },
+            {
+                "id": "9c0b1b25847c",
+                "name_th": "คลินิกตา",
+                "name_en": "",
+                "floor": 2,
+                "keywords": [
+                    "ห้องตรวจโรคตา"
+                ],
+                "photos": [
+                    "images/uploads/e80ffd49a37b05650db2905c2cd6c2f8.jpg"
+                ]
+            },
+            {
+                "id": "f2b50e37480f",
+                "name_th": "ห้องตรวจสงฆ์",
+                "name_en": "",
+                "floor": 1,
+                "keywords": [
+                    "ห้องตรวจพระภิกษุ",
+                    "ห้องตรวจสงฆ์"
+                ],
+                "photos": [
+                    "images/uploads/c9c64cd6bcc0ef5455cf7e8fd34b983f.jpg"
+                ]
+            },
+            {
+                "id": "897c1baa521e",
+                "name_th": "คลินิกสังคมสงเคราะห์",
+                "name_en": "",
+                "floor": 2,
+                "keywords": [
+                    "สังคมสงเคราะห์",
+                    "ศูนย์พึ่งได้"
+                ],
+                "photos": [
+                    "images/uploads/cfd5bc17cf4df1d451209b341e2e60d6.jpg"
+                ]
+            },
+            {
+                "id": "61074c6e52b1",
+                "name_th": "เวชระเบียนผู้ป่วยใน",
+                "name_en": "",
+                "floor": 2,
+                "keywords": [
+                    "เวชระเบียนผู้ป่วยใน"
+                ],
+                "photos": [
+                    "images/uploads/46bbeddc68ab1013aeb59b02c186917a.jpg"
+                ]
+            },
+            {
+                "id": "a10940bca228",
+                "name_th": "กลุ่มงานเทคนิคการแพทย์และพยาธิวิทยา",
+                "name_en": "",
+                "floor": 3,
+                "keywords": [
+                    "ส่งเลือด",
+                    "ส่งแลป",
+                    "ส่งLAB"
+                ],
+                "photos": [
+                    "images/uploads/774679edbc1f6f25a63a041ace3176e8.jpg",
+                    "images/uploads/4925cac01c5db538c01d30dee256c1ef.jpg",
+                    "images/uploads/b7dad01f11d54fbf12a8957884b708df.jpg"
+                ]
+            }
+        ]
+    },
+    "building_2": {
+        "name_th": "อาคาร 6 สุจิโต",
+        "name_en": "Sujito Building",
+        "photo_path": "images/uploads/b16ed5c51c9f7880502d8f7e2fe625f5.jpg",
+        "lat": 15.7815,
+        "lng": 104.1619,
+        "description": "ศูนย์เอ็กซเรย์และแพทย์แผนไทย",
+        "departments": [
+            {
+                "name_th": "ห้องเอ็กซเรย์",
+                "floor": 1,
+                "keywords": [
+                    "x-ray",
+                    "ฉายแสง"
+                ],
+                "id": "cb22ce0bf5cc",
+                "photos": [
+                    "images/uploads/903424d68a4f415a580f5f241b587082.jpg"
+                ]
+            },
+            {
+                "name_th": "แพทย์แผนไทย",
+                "floor": 2,
+                "keywords": [
+                    "นวด",
+                    "สมุนไพร"
+                ],
+                "id": "04da4a03fabe",
+                "photos": [
+                    "images/uploads/24ff78fc9535bad485d59c27b83f2b36.jpg",
+                    "images/uploads/5feaf23b5c3ce9e25db885e878b1f373.jpg"
+                ]
+            },
+            {
+                "id": "327557aa7859",
+                "name_th": "อาชีวเวชกรรม",
+                "name_en": "",
+                "floor": 2,
+                "keywords": [
+                    "ตรวจสุขภาพ",
+                    "อาชีว"
+                ],
+                "photos": [
+                    "images/uploads/1bc1715e562793af4c19ef6a9eae42ed.jpg",
+                    "images/uploads/ff0a90a7686198908595b3a953390f04.jpg",
+                    "images/uploads/495337c1b6b93ef54a7b80be960c4830.jpg"
+                ]
+            }
+        ]
+    },
+    "building_3": {
+        "name_th": "อาคาร 3",
+        "name_en": "Building 3",
+        "photo_path": "images/b3.jpg",
+        "lat": 15.7816,
+        "lng": 104.1611,
+        "description": "หอผู้ป่วยสามัญ",
+        "departments": [
+            {
+                "name_th": "ไตเทียม1",
+                "floor": 2,
+                "keywords": [
+                    "ฟอกไต",
+                    "ไตเทียม"
+                ],
+                "id": "9ff5cad05fb0",
+                "photos": [
+                    "images/uploads/7d891d62b703fda5246328dd1cd5db9d.jpg"
+                ],
+                "name_en": ""
+            },
+            {
+                "id": "297b9799c72e",
+                "name_th": "ไตเทียม3",
+                "name_en": "",
+                "floor": 1,
+                "keywords": [
+                    "ฟอกไต",
+                    "ไตเทียม"
+                ],
+                "photos": [
+                    "images/uploads/9a1eaa1a3154724e55616668fbd1bf7a.jpg"
+                ]
+            },
+            {
+                "id": "b349463dc997",
+                "name_th": "อายุรกรรมหญิง",
+                "name_en": "",
+                "floor": 3,
+                "keywords": [
+                    "อายุรกรรมหญิง"
+                ],
+                "photos": [
+                    "images/uploads/c4bf0afa1165752837c7fbc5320888a5.jpg"
+                ]
+            },
+            {
+                "id": "02a7e8348356",
+                "name_th": "อายุรกรรมชาย",
+                "name_en": "",
+                "floor": 4,
+                "keywords": [
+                    "อายุรกรรมชาย"
+                ],
+                "photos": [
+                    "images/uploads/b2d41109204f5cc87b2a2edcacc057bf.jpg"
+                ]
+            },
+            {
+                "id": "c4eea0bd8ae9",
+                "name_th": "อายุรกรรมรวม",
+                "name_en": "",
+                "floor": 5,
+                "keywords": [
+                    "อายุรกรรมรวม"
+                ],
+                "photos": [
+                    "images/uploads/59984b5a152b4a525a0be99837272648.jpg"
+                ]
+            }
+        ]
+    },
+    "building_4": {
+        "name_th": "อาคาร 2",
+        "name_en": "Building 2",
+        "photo_path": "images/uploads/759fd3c5b385d62ed341d4cfb4362a59.jpg",
+        "lat": 15.7813,
+        "lng": 104.1612,
+        "description": "คลินิกอายุรกรรมเฉพาะโรค,เบาหวาน,ความดันโลหิต,หัวใจ",
+        "departments": [
+            {
+                "name_th": "คลินิกเบาหวาน ความดัน หัวใจ",
+                "floor": 1,
+                "keywords": [
+                    "ห้องตรวจโรคเบาหวาน",
+                    "ห้องตรวจโรคความดันโลหิต",
+                    "ห้องตรวจโรคหัวใจ",
+                    "ห้องตรวจโรคCOPD"
+                ],
+                "id": "4ce7acef5dd7",
+                "name_en": "",
+                "photos": [
+                    "images/uploads/3e808b723d923c9c73b0f176014b35a9.jpg"
+                ]
+            },
+            {
+                "id": "11ba793de4a2",
+                "name_th": "ห้องเจาะเลือดคลินิกเฉพาะโรค",
+                "name_en": "",
+                "floor": 1,
+                "keywords": [
+                    "เจาะเลือดเบาหวาน ความดัน หัวใจ COPD  ส่งแลปคลินิกอายุรกรรมเฉพาะโรค"
+                ],
+                "photos": [
+                    "images/uploads/5f20bdf26b2cc6559b434631e464bafa.jpg",
+                    "images/uploads/511514f13201d347a8c031d65f8ffc1b.jpg"
+                ]
+            },
+            {
+                "id": "6a56712810ef",
+                "name_th": "ไตเทียม2",
+                "name_en": "",
+                "floor": 2,
+                "keywords": [
+                    "ฟอกไต",
+                    "ไตเทียม2"
+                ],
+                "photos": [
+                    "images/uploads/db078ef39747e5bb22b589f34e328a73.jpg"
+                ]
+            },
+            {
+                "id": "30ed6e7257e2",
+                "name_th": "ตรวจสอบสิทธิ",
+                "name_en": "",
+                "floor": 1,
+                "keywords": [
+                    "ตรวจสอบสิทธิ"
+                ],
+                "photos": [
+                    "images/uploads/872753ec1c0d918bd75778c2ed74aa28.jpg"
+                ]
+            }
+        ]
+    },
+    "building_5": {
+        "name_th": "อาคาร 5",
+        "name_en": "Building 5",
+        "photo_path": "images/b5.jpg",
+        "lat": 15.7818,
+        "lng": 104.1615,
+        "description": "บริจาคเลือด,เจาะเลือด,สุขใจ",
+        "departments": [
+            {
+                "name_th": "ห้องเจาะเลือด",
+                "floor": 1,
+                "keywords": [
+                    "เลือด",
+                    "เจาะเลือด",
+                    "สุขใจ"
+                ],
+                "id": "fc5ad0ae38a8",
+                "photos": [
+                    "images/uploads/8c2e94f6e662203d489981a28f50058c.jpg"
+                ]
+            },
+            {
+                "id": "85627b3d6464",
+                "name_th": "ธนาคารเลือด",
+                "name_en": "",
+                "floor": 1,
+                "keywords": [
+                    "บริจาคเลือด"
+                ],
+                "photos": [
+                    "images/uploads/818180e180a6b410cee46b7a02bbaa87.jpg"
+                ]
+            },
+            {
+                "id": "64b02af47852",
+                "name_th": "หอผู้ป่วยสุขใจ",
+                "name_en": "",
+                "floor": 2,
+                "keywords": [
+                    "ผู้่ป่วยสุขใจ"
+                ],
+                "photos": [
+                    "images/uploads/10a1d1e6ffc388fab8355b13af84ed02.jpg"
+                ]
+            }
+        ]
+    },
+    "building_6": {
+        "name_th": "อาคารฮักแฮง,แพงกัน",
+        "name_en": "Building 4",
+        "photo_path": "images/uploads/085284998f9a8a3d3df0285fdd37cd75.jpg",
+        "lat": 15.7811,
+        "lng": 104.161,
+        "description": "ฮักแฮง, ARV",
+        "departments": [
+            {
+                "name_th": "ฮักแฮง,ARV",
+                "floor": 1,
+                "keywords": [
+                    "วัณโรค",
+                    "ฮักแฮง",
+                    "ARVผู้ใหญ่ ARVเด็ก"
+                ],
+                "id": "07ff74438b18",
+                "name_en": "",
+                "photos": [
+                    "images/uploads/2ba9c9776c5d9dfd96d11ca7f68f24b5.jpg"
+                ]
+            }
+        ]
+    },
+    "building_7": {
+        "name_th": "อาคาร 7",
+        "name_en": "Building 7",
+        "photo_path": "images/uploads/8c5334d786ba98ffc30e559dc983847f.jpg",
+        "lat": 15.7821,
+        "lng": 104.1615,
+        "description": "อาคารกายภาพ ,เวชกรรมสังคม",
+        "departments": [
+            {
+                "name_th": "กายภาพบำบัด",
+                "floor": 1,
+                "keywords": [
+                    "กายภาพบำบัด",
+                    "เวชกรรมฟื้นฟู"
+                ],
+                "id": "9ba1e9308239",
+                "photos": [
+                    "images/uploads/710c29ac626f484cc41f4e658d7aab9c.jpg"
+                ],
+                "name_en": ""
+            },
+            {
+                "name_th": "กลุ่มงานอาชีวเวชกรรมสังคม",
+                "floor": 2,
+                "keywords": [
+                    "เวชกรรมสังคม",
+                    "อาชีว"
+                ],
+                "id": "b7d8368fd24a",
+                "name_en": "",
+                "photos": [
+                    "images/uploads/585ed7c06b067c5b3518ba47dca0148e.jpg"
+                ]
+            }
+        ]
+    },
+    "building_8": {
+        "name_th": "อาคาร 8",
+        "name_en": "Building 8",
+        "photo_path": "images/b8.jpg",
+        "lat": 15.782,
+        "lng": 104.1616,
+        "description": "อาคารผ่าตัด",
+        "departments": [
+            {
+                "name_th": "ห้องคลอด",
+                "floor": 1,
+                "keywords": [
+                    "ห้องคลอด"
+                ],
+                "id": "72582d258d6f",
+                "photos": [
+                    "images/uploads/eee36cea7e3916b07c2fcc3df7f538a8.jpg"
+                ]
+            },
+            {
+                "name_th": "หอผู้ป่วยสุขใจ 2",
+                "floor": 2,
+                "keywords": [
+                    "สุขใจ2",
+                    "สุขใจ 2"
+                ],
+                "id": "8c9c47b1b27d",
+                "photos": [
+                    "images/uploads/2cf1fb3db6e15c701103ab8063702eb7.jpg"
+                ]
+            },
+            {
+                "name_th": "ห้องผ่าตัด",
+                "floor": 3,
+                "keywords": [
+                    "ผ่าตัด",
+                    "ห้องผ่าตัด"
+                ],
+                "id": "0b28933ab387",
+                "photos": [
+                    "images/uploads/22b9f118fc231cff20ff6b214d3b5d6c.jpg",
+                    "images/uploads/79d4feb7ca9bdf5df1d81b4226dec8a6.jpg"
+                ]
+            },
+            {
+                "id": "321b23d67100",
+                "name_th": "เคมีบำบัด",
+                "name_en": "",
+                "floor": 2,
+                "keywords": [
+                    "เคมีบำบัด"
+                ],
+                "photos": [
+                    "images/uploads/c9cb7d35ff3a4e86a7232bac3c7fe196.jpg"
+                ]
+            },
+            {
+                "id": "5b44ce9ebfa5",
+                "name_th": "Stroke",
+                "name_en": "",
+                "floor": 2,
+                "keywords": [
+                    "Stroke",
+                    "โรคหลอดเลือดสมอง"
+                ],
+                "photos": [
+                    "images/uploads/53455e3ae5bf9058df842abc1bf30dd5.jpg"
+                ]
+            },
+            {
+                "id": "adabc0558c98",
+                "name_th": "คลินิกดูแลแผล",
+                "name_en": "",
+                "floor": 1,
+                "keywords": [
+                    "ล้างแผล",
+                    "ทำแผล"
+                ],
+                "photos": [
+                    "images/uploads/edcebdfe9930e582114a7914c3bc4f26.jpg"
+                ]
+            }
+        ]
+    },
+    "building_9": {
+        "name_th": "อาคาร 9",
+        "name_en": "Building 9",
+        "photo_path": "images/b6.jpg",
+        "lat": 15.7822,
+        "lng": 104.162,
+        "description": "หอผู้ป่วยพิเศษ",
+        "departments": [
+            {
+                "name_th": "คลังน้ำเกลือ",
+                "floor": 1,
+                "keywords": [
+                    "น้ำเกลือ"
+                ],
+                "id": "ceb462104401",
+                "name_en": "",
+                "photos": [
+                    "images/uploads/cd315cc6e8ee159bb5567db996578758.jpg"
+                ]
+            },
+            {
+                "id": "967390545d99",
+                "name_th": "หอผู้ป่วยหนักศัลยกรรม",
+                "name_en": "",
+                "floor": 2,
+                "keywords": [
+                    "ICU ศัลยกรรม",
+                    "ผู้ป่วยหนักศัลยกรรม"
+                ],
+                "photos": [
+                    "images/uploads/c3cfad8073139372abfa8f00007e8845.jpg"
+                ]
+            },
+            {
+                "id": "66718b0c438c",
+                "name_th": "หอผู้ป่วยหนักอายุรกรรม 1",
+                "name_en": "",
+                "floor": 3,
+                "keywords": [
+                    "ICU อายุรกรรม1",
+                    "ผูู้ป่วยหนักอายุรกรรม"
+                ],
+                "photos": [
+                    "images/uploads/5413d34ded6b166a456220695c6002e7.jpg"
+                ]
+            },
+            {
+                "id": "bc05efe0b82d",
+                "name_th": "หอผู้ป่วยหนักอายุรกรรม 2",
+                "name_en": "",
+                "floor": 4,
+                "keywords": [
+                    "ICU อายุรกรรม2",
+                    "ผูู้ป่วยหนักอายุรกรรม"
+                ],
+                "photos": [
+                    "images/uploads/6ae346fd3eaabd0df350229d324ddd25.jpg"
+                ]
+            },
+            {
+                "id": "72026c40c9ed",
+                "name_th": "หอผู้ป่วยพิเศษ๙/๕",
+                "name_en": "",
+                "floor": 5,
+                "keywords": [
+                    "ห้องพิเศษตึก9ชั้น5"
+                ],
+                "photos": [
+                    "images/uploads/746b6f4da2e62ee0e7a17afca290273c.jpg"
+                ]
+            },
+            {
+                "id": "7c22e0231e90",
+                "name_th": "หอผู้ป่วยพิเศษ๙/๖",
+                "name_en": "",
+                "floor": 6,
+                "keywords": [
+                    "ห้องพิเศษตึก9ชั้น6"
+                ],
+                "photos": [
+                    "images/uploads/a8c68023ef212ac66045c0f282ce9c28.jpg"
+                ]
+            },
+            {
+                "id": "644c305fd68f",
+                "name_th": "หอผู้ป่วยพิเศษ๙/๗",
+                "name_en": "",
+                "floor": 7,
+                "keywords": [
+                    "ห้องพิเศษตึก9ชั้น7"
+                ],
+                "photos": [
+                    "images/uploads/3e7085cc7117e9ed4098b02ac6f3e960.jpg"
+                ]
+            },
+            {
+                "id": "2d9100ad4d42",
+                "name_th": "หอผู้ป่วยพิเศษ๙/๘",
+                "name_en": "",
+                "floor": 8,
+                "keywords": [
+                    "ห้องพิเศษตึก9ชั้น8"
+                ],
+                "photos": [
+                    "images/uploads/b0e57d78b14f40cbd7d74b3797c84bef.jpg"
+                ]
+            },
+            {
+                "id": "ff6fd72066d0",
+                "name_th": "หอผู้ป่วยพิเศษ๙/๙",
+                "name_en": "",
+                "floor": 9,
+                "keywords": [
+                    "ห้องพิเศษตึก9ชั้น9"
+                ],
+                "photos": [
+                    "images/uploads/585e7b9687bce0a38b8415fef185a5eb.jpg"
+                ]
+            }
+        ]
+    },
+    "building_10": {
+        "name_th": "อาคาร 10",
+        "name_en": "Building 10",
+        "photo_path": "images/uploads/0aec50d94fcee7e26900d281424b9569.jpg",
+        "lat": 15.7822,
+        "lng": 104.1615,
+        "description": "อาคาร 10",
+        "departments": [
+            {
+                "name_th": "ICU เด็ก",
+                "floor": 1,
+                "keywords": [
+                    "ICU เด็ก",
+                    "เด็กแรกเกิดป่วย"
+                ],
+                "id": "a6187d52dd4e",
+                "photos": [
+                    "images/uploads/44acc577efe5f9703671af7ec301a6e2.jpg"
+                ]
+            },
+            {
+                "name_th": "หอผู้ป่วยสูติกรรม",
+                "floor": 3,
+                "keywords": [
+                    "สูติกรรม",
+                    "หลังคลอด"
+                ],
+                "id": "3b6f15006d09",
+                "name_en": "",
+                "photos": [
+                    "images/uploads/1ed5a4ed44778d581c59b6e2d649aaff.jpg"
+                ]
+            },
+            {
+                "name_th": "หอผู้ป่วยกระดูก",
+                "floor": 4,
+                "keywords": [
+                    "กระดูก",
+                    "ออโธ"
+                ],
+                "id": "1c4b9f4f6dc9",
+                "photos": [
+                    "images/uploads/9ec8c0389776605feb8b1c00da46dacb.jpg"
+                ]
+            },
+            {
+                "id": "9beda8865596",
+                "name_th": "หอผู้ป่วยศัลยกรรมหญิง",
+                "name_en": "",
+                "floor": 7,
+                "keywords": [
+                    "ศัลยกรรมหญิง"
+                ],
+                "photos": [
+                    "images/uploads/f9ca36ed233c9a534c1e69066da46d97.jpg"
+                ]
+            },
+            {
+                "id": "1768a536fc52",
+                "name_th": "หอผู้ป่วยกุมารเวชกรรม",
+                "name_en": "",
+                "floor": 2,
+                "keywords": [
+                    "กุมารเวชกรรม",
+                    "ตึกเด็ก"
+                ],
+                "photos": [
+                    "images/uploads/d78b7052c2a1b1cfbd8122aaa0b864b6.jpg"
+                ]
+            },
+            {
+                "id": "feec21ffe66a",
+                "name_th": "หอผู้ป่วย ตา หู จมูก และศัลยกรรมประสาท",
+                "name_en": "",
+                "floor": 5,
+                "keywords": [
+                    "ตึกตา",
+                    "ตึกหู",
+                    "ตึกจมูก",
+                    "ตึกระบบประสาท"
+                ],
+                "photos": [
+                    "images/uploads/2d3afee1abfc72d0a3e1d7cb889ec95a.jpg"
+                ]
+            },
+            {
+                "id": "bc7ddb912143",
+                "name_th": "หอผู้ป่วยศัลยกรรมชาย",
+                "name_en": "",
+                "floor": 6,
+                "keywords": [
+                    "ศัลยกรรมชาย"
+                ],
+                "photos": [
+                    "images/uploads/81ed9aab6d3723c6b9ad11403910ebb5.jpg"
+                ]
+            },
+            {
+                "id": "6852e35e87c1",
+                "name_th": "หอผู้ป่วยอายุรกรรมเฉพาะโรค",
+                "name_en": "",
+                "floor": 8,
+                "keywords": [
+                    "อายุรกรรมเฉพาะโรค"
+                ],
+                "photos": [
+                    "images/uploads/d13a137b5c160014c2060f003190e859.jpg"
+                ]
+            },
+            {
+                "id": "9e3e554fb81f",
+                "name_th": "หอผู้ป่วยพิเศษ",
+                "name_en": "",
+                "floor": 9,
+                "keywords": [
+                    "ผู่้ป่วยพิเศษ"
+                ],
+                "photos": [
+                    "images/uploads/c7e24e49606bbbcd173054c2fe40eb62.jpg"
+                ]
+            },
+            {
+                "id": "eade4c6d5667",
+                "name_th": "หอผู้ป่วยพิเศษสงฆ์อาพาธ",
+                "name_en": "",
+                "floor": 10,
+                "keywords": [
+                    "ตึกสงฆ์อาพาธ"
+                ],
+                "photos": [
+                    "images/uploads/9ef04596e24621de3f6721e17a74b21b.jpg"
+                ]
+            }
+        ]
+    },
+    "building_11": {
+        "name_th": "อาคาร 11",
+        "name_en": "Building 11",
+        "photo_path": "images/b8.jpg",
+        "lat": 15.7812,
+        "lng": 104.1613,
+        "description": "เรือนพักญาติ",
+        "departments": [
+            {
+                "name_th": "เรือนพักญาติ",
+                "floor": 1,
+                "keywords": [
+                    "เรือนพักญาติ"
+                ],
+                "id": "4b401699a950",
+                "name_en": ""
+            }
+        ]
+    }
 }
